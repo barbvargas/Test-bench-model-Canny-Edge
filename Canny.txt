@@ -1,0 +1,8 @@
+I believe the output is correct I am not sure if the diff section is supposed to be there 
+all the Engineering%03d_edges.pgm were produced and my module visualiztion showed correct 
+module and channel connections. I had a hard time figuring out how to connect the port
+from a parent module so I bound data ins port with the platform in port and none of the 
+images were produced, once I used the -> symbol to access read it worked. I had this 
+same issue with data out. I also struggled on where to put the channel constructor with the 
+size. Finally I accidentally put sc_stops in the infinite loops so I was getting only 28 
+edge images for a while but once they were removed it worked. 
